@@ -82,6 +82,13 @@ using BlazingDrink.Client.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\_Imports.razor"
+using BlazingDrink.Shared;
+
+#line default
+#line hidden
+#nullable disable
     public partial class MainLayout : LayoutComponentBase
     {
         #pragma warning disable 1998

@@ -1,5 +1,7 @@
-﻿using Microsoft.AspNetCore.Hosting;
+﻿using BlazingDrink.Server.Models;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
@@ -13,7 +15,20 @@ namespace BlazingDrink.Server
 	{
 		public static void Main(string[] args)
 		{
-			CreateHostBuilder(args).Build().Run();
+			var Host = CreateHostBuilder(args).Build();
+
+			var ScopeFactory = Host.Services.GetRequiredService<IServiceScopeFactory>();
+			using(var Scope = ScopeFactory.CreateScope())
+			{
+				var Context = Scope.ServiceProvider
+					.GetRequiredService<DrinkStoreContext>();
+				if (!Context.Specials.Any())
+				{
+					AlimentoDatos.Initialize(Context);
+				}
+			}
+
+			Host.Run();
 		}
 
 		public static IHostBuilder CreateHostBuilder(string[] args) =>

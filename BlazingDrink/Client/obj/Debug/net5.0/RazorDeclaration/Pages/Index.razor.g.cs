@@ -82,6 +82,13 @@ using BlazingDrink.Client.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\_Imports.razor"
+using BlazingDrink.Shared;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -90,6 +97,16 @@ using BlazingDrink.Client.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 7 "C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\Pages\Index.razor"
+      
+    List<DrinkSpecial> Specials;
+
+
+#line default
+#line hidden
+#nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient HttpClient { get; set; }
     }
 }
 #pragma warning restore 1591
