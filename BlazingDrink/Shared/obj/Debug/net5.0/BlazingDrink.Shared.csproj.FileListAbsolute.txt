@@ -1,0 +1,12 @@
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Shared\bin\Debug\net5.0\BlazingDrink.Shared.deps.json
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Shared\bin\Debug\net5.0\BlazingDrink.Shared.dll
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Shared\bin\Debug\net5.0\ref\BlazingDrink.Shared.dll
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Shared\bin\Debug\net5.0\BlazingDrink.Shared.pdb
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Shared\obj\Debug\net5.0\BlazingDrink.Shared.csproj.AssemblyReference.cache
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Shared\obj\Debug\net5.0\BlazingDrink.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Shared\obj\Debug\net5.0\BlazingDrink.Shared.AssemblyInfoInputs.cache
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Shared\obj\Debug\net5.0\BlazingDrink.Shared.AssemblyInfo.cs
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Shared\obj\Debug\net5.0\BlazingDrink.Shared.csproj.CoreCompileInputs.cache
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Shared\obj\Debug\net5.0\BlazingDrink.Shared.dll
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Shared\obj\Debug\net5.0\ref\BlazingDrink.Shared.dll
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Shared\obj\Debug\net5.0\BlazingDrink.Shared.pdb
