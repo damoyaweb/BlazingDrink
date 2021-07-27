@@ -1,5 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
-using BlazingDrink.Shared;
+﻿using BlazingDrink.Shared;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,8 +9,7 @@ namespace BlazingDrink.Server.Models
 {
 	public class DrinkStoreContext:DbContext
 	{
-		public DbSet<DrinkSpecial> Special { get; set; }
+		public DbSet<DrinkSpecial> Specials { get; set; }
 		public DrinkStoreContext(DbContextOptions options) : base(options) { }
-
 	}
 }

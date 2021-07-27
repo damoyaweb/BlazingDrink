@@ -6387,6 +6387,7 @@
       "BlazingDrink.Client >= 1.0.0",
       "BlazingDrink.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 5.0.8",
+      "Microsoft.EntityFrameworkCore >= 5.0.8",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.8",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.8"
     ]
@@ -6442,6 +6443,10 @@
         "targetAlias": "net5.0",
         "dependencies": {
           "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+            "target": "Package",
+            "version": "[5.0.8, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[5.0.8, )"
           },

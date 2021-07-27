@@ -195,13 +195,13 @@
       "mscorlib.dll": "sha256-CUpudhojlkcrp2dsiJFF\/H\/WNg+uAhzoGkSWfOta\/U0=",
       "netstandard.dll": "sha256-vJpyW6cE\/+ewo5rVB5JUu9x2f8aLnqoIazac8ef5FzQ=",
       "System.Private.CoreLib.dll": "sha256-CvQTDivHJZAtRXyCbDa5f5+okJt39WRFrZSmXTMSau0=",
-      "BlazingDrink.Shared.dll": "sha256-eiMwL\/\/iJZSH1gi3KBnmFh4xii9d8zpRM6DWFqUkXqc=",
-      "BlazingDrink.Client.dll": "sha256-5O0KevrzrAbkZy7VGZ55aiGmIm8xdE8m\/3Xgs5PHSR0="
+      "BlazingDrink.Shared.dll": "sha256-7jaYbC1S8bCPPrJww6JUBoJ1fT03lzwB2FdT4vnpNNg=",
+      "BlazingDrink.Client.dll": "sha256-5UaQoHMDYQp3wwjSYN7k+ltukq7cs6VFPxLv0qwzbjI="
     },
     "lazyAssembly": null,
     "pdb": {
-      "BlazingDrink.Shared.pdb": "sha256-zUCIICM4LpypQAoVX5h+u6ktCMsypvcG7TNUx6lv0sY=",
-      "BlazingDrink.Client.pdb": "sha256-SwegAkWiQlqrTAPVN+8FR9FXMq0KiftvYNy0an6malM="
+      "BlazingDrink.Shared.pdb": "sha256-mFWXN2QJMNvj3Mamixj7WbE4FsiSMeh+wYMCWxChmjc=",
+      "BlazingDrink.Client.pdb": "sha256-3a+ytU8VEQxzedph2Td2+9sDygqK9Mi23xt1WMeMpXo="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-2OdnPsDgJyoSaSlvebGMRd2MxC+4UIqparqVrQZAFDE=",
