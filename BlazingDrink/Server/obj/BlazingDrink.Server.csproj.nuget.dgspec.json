@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Server\\BlazingDrink.Server.csproj": {}
+    "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Server\\BlazingDrink.Server.csproj": {}
   },
   "projects": {
-    "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Client\\BlazingDrink.Client.csproj": {
+    "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Client\\BlazingDrink.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Client\\BlazingDrink.Client.csproj",
+        "projectUniqueName": "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Client\\BlazingDrink.Client.csproj",
         "projectName": "BlazingDrink.Client",
-        "projectPath": "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Client\\BlazingDrink.Client.csproj",
-        "packagesPath": "C:\\Users\\analistasistemas\\.nuget\\packages\\",
-        "outputPath": "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Client\\obj\\",
+        "projectPath": "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Client\\BlazingDrink.Client.csproj",
+        "packagesPath": "C:\\Users\\dimoy\\.nuget\\packages\\",
+        "outputPath": "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Client\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\analistasistemas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dimoy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -31,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj": {
-                "projectPath": "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj"
+              "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj": {
+                "projectPath": "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj"
               }
             }
           }
@@ -91,20 +88,17 @@
         }
       }
     },
-    "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Server\\BlazingDrink.Server.csproj": {
+    "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Server\\BlazingDrink.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Server\\BlazingDrink.Server.csproj",
+        "projectUniqueName": "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Server\\BlazingDrink.Server.csproj",
         "projectName": "BlazingDrink.Server",
-        "projectPath": "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Server\\BlazingDrink.Server.csproj",
-        "packagesPath": "C:\\Users\\analistasistemas\\.nuget\\packages\\",
-        "outputPath": "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Server\\obj\\",
+        "projectPath": "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Server\\BlazingDrink.Server.csproj",
+        "packagesPath": "C:\\Users\\dimoy\\.nuget\\packages\\",
+        "outputPath": "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Server\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\analistasistemas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dimoy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -118,11 +112,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Client\\BlazingDrink.Client.csproj": {
-                "projectPath": "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Client\\BlazingDrink.Client.csproj"
+              "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Client\\BlazingDrink.Client.csproj": {
+                "projectPath": "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Client\\BlazingDrink.Client.csproj"
               },
-              "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj": {
-                "projectPath": "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj"
+              "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj": {
+                "projectPath": "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj"
               }
             }
           }
@@ -178,20 +172,17 @@
         }
       }
     },
-    "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj": {
+    "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj",
+        "projectUniqueName": "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj",
         "projectName": "BlazingDrink.Shared",
-        "projectPath": "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj",
-        "packagesPath": "C:\\Users\\analistasistemas\\.nuget\\packages\\",
-        "outputPath": "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Shared\\obj\\",
+        "projectPath": "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj",
+        "packagesPath": "C:\\Users\\dimoy\\.nuget\\packages\\",
+        "outputPath": "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Shared\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\analistasistemas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dimoy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

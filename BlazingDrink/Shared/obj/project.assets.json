@@ -8,23 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\analistasistemas\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\dimoy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj",
+      "projectUniqueName": "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj",
       "projectName": "BlazingDrink.Shared",
-      "projectPath": "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj",
-      "packagesPath": "C:\\Users\\analistasistemas\\.nuget\\packages\\",
-      "outputPath": "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Shared\\obj\\",
+      "projectPath": "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj",
+      "packagesPath": "C:\\Users\\dimoy\\.nuget\\packages\\",
+      "outputPath": "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Shared\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\analistasistemas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dimoy\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
