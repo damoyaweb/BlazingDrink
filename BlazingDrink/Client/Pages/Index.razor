@@ -7,7 +7,8 @@
         {
             foreach (var Special in Specials)
             {
-                <li style="background-image:url('@Special.ImageUrl')">
+                <li @onclick="() => ShowConfigureDrinkDialog(Special)"
+                    style="background-image:url('@Special.ImageUrl')">
                     <div class="drink-info">
                         <span class="title">@Special.Nombre</span>
                         @Special.Descripcion

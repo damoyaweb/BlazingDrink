@@ -10,6 +10,22 @@ namespace BlazingDrink.Server.Models
 	public class DrinkStoreContext:DbContext
 	{
 		public DbSet<DrinkSpecial> Specials { get; set; }
+		public DbSet<Topping> Toppings { get; set; }
+		public DbSet<Drink> drinks { get; set; }
+
+
 		public DrinkStoreContext(DbContextOptions options) : base(options) { }
+
+		protected override void OnModelCreating(ModelBuilder modelBuilder)
+		{
+			modelBuilder.Entity<DrinkTopping>()
+				.HasKey(dt => new { dt.DrinkId, dt.ToppingId });
+
+			modelBuilder.Entity<DrinkTopping>()
+				.HasOne<Drink>().WithMany(dk => dk.Toppings);
+
+			modelBuilder.Entity<DrinkTopping>()
+				.HasOne(dt => dt.Topping).WithMany();
+		}
 	}
 }

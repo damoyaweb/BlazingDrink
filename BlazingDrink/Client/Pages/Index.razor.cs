@@ -11,15 +11,40 @@ namespace BlazingDrink.Client.Pages
 {
 	public partial class Index
 	{
-        [Inject]
+		#region Servicios
+		[Inject]
         public HttpClient HttpClient { get; set; }
+		#endregion
 
-        List<DrinkSpecial> Specials;
+		#region Variables
+		List<DrinkSpecial> Specials;
+        Drink ConfiguringDronk;
+        bool ShowingConfigureDialog;
+		#endregion
 
-        protected async override Task OnInitializedAsync()
+		#region Overrides
+		protected async override Task OnInitializedAsync()
         {
             Specials = await HttpClient
             .GetFromJsonAsync<List<DrinkSpecial>>("special");
         }
-    }
+		#endregion
+
+		#region Métodos
+		void ShowConfigureDrinkDialog(DrinkSpecial special)
+		{
+			ConfiguringDronk = new Drink()
+			{
+				Special = special,
+				SpecialId = special.Id,
+				Size = Drink.DefaultSize,
+				Toppings = new List<DrinkTopping>()
+			};
+			ShowingConfigureDialog = true;
+		}
+
+		#endregion
+
+
+	}
 }

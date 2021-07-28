@@ -49,7 +49,123 @@ namespace BlazingDrink.Server.Models
 				}
 
 			};
-			context.Specials.AddRange(Specials);
+
+            var Toppings = new Topping[]
+            {
+                new Topping()
+                {
+                    Nombre = "Extra cheese",
+                    Precio = 2.50m,
+                },
+                new Topping()
+                {
+                    Nombre = "American bacon",
+                    Precio = 2.99m,
+                },
+                new Topping()
+                {
+                    Nombre = "British bacon",
+                    Precio = 2.99m,
+                },
+                new Topping()
+                {
+                    Nombre = "Canadian bacon",
+                    Precio = 2.99m,
+                },
+                new Topping()
+                {
+                    Nombre = "Tea and crumpets",
+                    Precio = 5.00m
+                },
+                new Topping()
+                {
+                    Nombre = "Fresh-baked scones",
+                    Precio = 4.50m,
+                },
+                new Topping()
+                {
+                    Nombre = "Bell peppers",
+                    Precio = 1.00m,
+                },
+                new Topping()
+                {
+                    Nombre = "Onions",
+                    Precio = 1.00m,
+                },
+                new Topping()
+                {
+                    Nombre = "Mushrooms",
+                    Precio = 1.00m,
+                },
+                new Topping()
+                {
+                    Nombre = "Pepperoni",
+                    Precio = 1.00m,
+                },
+                new Topping()
+                {
+                    Nombre = "Duck sausage",
+                    Precio = 3.20m,
+                },
+                new Topping()
+                {
+                    Nombre = "Venison meatballs",
+                    Precio = 2.50m,
+                },
+                new Topping()
+                {
+                    Nombre = "Served on a silver platter",
+                    Precio = 250.99m,
+                },
+                new Topping()
+                {
+                    Nombre = "Lobster on top",
+                    Precio = 64.50m,
+                },
+                new Topping()
+                {
+                    Nombre = "Sturgeon caviar",
+                    Precio = 101.75m,
+                },
+                new Topping()
+                {
+                    Nombre = "Artichoke hearts",
+                    Precio = 3.40m,
+                },
+                new Topping()
+                {
+                    Nombre = "Fresh tomatoes",
+                    Precio = 1.50m,
+                },
+                new Topping()
+                {
+                    Nombre = "Basil",
+                    Precio = 1.50m,
+                },
+                new Topping()
+                {
+                    Nombre = "Steak (medium-rare)",
+                    Precio = 8.50m,
+                },
+                new Topping()
+                {
+                    Nombre = "Blazing hot peppers",
+                    Precio = 4.20m,
+                },
+                new Topping()
+                {
+                    Nombre = "Buffalo chicken",
+                    Precio = 5.00m,
+                },
+                new Topping()
+                {
+                    Nombre = "Blue cheese",
+                    Precio = 2.50m,
+                },
+            };
+
+            context.Specials.AddRange(Specials);
+            context.Toppings.AddRange(Toppings);
 			context.SaveChanges();
 		}
 	}

@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingDrink.Server", "BlazingDrink\Server\BlazingDrink.Server.csproj", "{9F767AF8-DE0C-44DD-B0C2-36D6517A2E22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazingDrink.Server", "BlazingDrink\Server\BlazingDrink.Server.csproj", "{9F767AF8-DE0C-44DD-B0C2-36D6517A2E22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingDrink.Client", "BlazingDrink\Client\BlazingDrink.Client.csproj", "{F03DF7BC-1936-4C61-9D62-D386535F5EF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazingDrink.Client", "BlazingDrink\Client\BlazingDrink.Client.csproj", "{F03DF7BC-1936-4C61-9D62-D386535F5EF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazingDrink.Shared", "BlazingDrink\Shared\BlazingDrink.Shared.csproj", "{96B694FF-72B2-4A05-8B6C-00F24C34F9CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazingDrink.Shared", "BlazingDrink\Shared\BlazingDrink.Shared.csproj", "{96B694FF-72B2-4A05-8B6C-00F24C34F9CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
