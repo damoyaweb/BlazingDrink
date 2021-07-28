@@ -1,5 +1,5 @@
 ﻿@page "/"
-@inject HttpClient HttpClient
+
 
 <div class="main">
     <ul class="drink-cards">
@@ -21,14 +21,3 @@
         }
     </ul>
 </div>
-
-@code{
-    List<DrinkSpecial> Specials;
-
-    protected async override Task OnInitializedAsync()
-    {
-        Specials = await HttpClient
-        .GetFromJsonAsync<List<DrinkSpecial>>("specials");
-
-    }
-}

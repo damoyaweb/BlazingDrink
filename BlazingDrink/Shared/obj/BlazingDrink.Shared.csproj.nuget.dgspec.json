@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj": {}
+    "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj": {}
   },
   "projects": {
-    "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj": {
+    "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj",
+        "projectUniqueName": "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj",
         "projectName": "BlazingDrink.Shared",
-        "projectPath": "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj",
-        "packagesPath": "C:\\Users\\dimoy\\.nuget\\packages\\",
-        "outputPath": "C:\\Diego Moya\\Proyectos\\BlazingDrink\\BlazingDrink\\Shared\\obj\\",
+        "projectPath": "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Shared\\BlazingDrink.Shared.csproj",
+        "packagesPath": "C:\\Users\\analistasistemas\\.nuget\\packages\\",
+        "outputPath": "C:\\DISCO_Datos\\BlazingDrink\\BlazingDrink\\BlazingDrink\\Shared\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\dimoy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\analistasistemas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
