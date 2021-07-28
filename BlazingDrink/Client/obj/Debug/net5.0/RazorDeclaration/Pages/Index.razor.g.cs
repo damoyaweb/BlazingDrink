@@ -98,10 +98,16 @@ using BlazingDrink.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 7 "C:\Diego Moya\Proyectos\BlazingDrink\BlazingDrink\Client\Pages\Index.razor"
+#line 25 "C:\Diego Moya\Proyectos\BlazingDrink\BlazingDrink\Client\Pages\Index.razor"
       
     List<DrinkSpecial> Specials;
 
+    protected async override Task OnInitializedAsync()
+    {
+        Specials = await HttpClient
+        .GetFromJsonAsync<List<DrinkSpecial>>("specials");
+
+    }
 
 #line default
 #line hidden
