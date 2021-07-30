@@ -1,1 +1,32 @@
-﻿
+﻿<div class="dialog-container">
+    <div class="dialog">
+        <div class="dialog-title">
+            <h2>@Drink.Special.Nombre</h2>
+            @Drink.Special.Descripcion
+        </div>
+        <form class="dialog-body">
+            <div>
+                <label>Tamaño</label>
+                <input type="range"
+                       min="@Drink.MinimumSize"
+                       max="@Drink.MaximumSize"
+                       step="@Drink.IncrementSize"
+                       @bind="@Drink.Size"
+                       @bind:event="oninput"/>
+                <span class="size-label">
+                    @(Drink.Size) cc ($@(Drink.GetFormattedTotalPrice()))
+                </span>
+            </div>
+        </form>
+        <div class="dialog-buttons">
+            <button class="btn btn-secondary mr-auto">Cancelar</button>
+            <span class="mr-center">
+                Precio:
+                <span class="price">
+                    @(Drink.GetFormattedTotalPrice())
+                </span>
+            </span>
+            <button class="btn btn-success ml-auto">Ordenar</button>
+        </div>
+    </div>
+</div>

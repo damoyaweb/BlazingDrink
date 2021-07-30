@@ -1252,3 +1252,5 @@ C:\Diego Moya\Proyectos\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\Blazin
 C:\Diego Moya\Proyectos\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.dll
 C:\Diego Moya\Proyectos\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\ref\BlazingDrink.Client.dll
 C:\Diego Moya\Proyectos\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.pdb
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\RazorDeclaration\Shared\ConfigureDrinkDialog.razor.g.cs
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\Razor\Shared\ConfigureDrinkDialog.razor.g.cs
