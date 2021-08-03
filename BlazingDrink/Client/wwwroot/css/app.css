@@ -472,7 +472,7 @@ input[type=range] {
         background: #e1e1e1;
     }
 
-    input[type=range]::-moz-range-track {
+    input[type=range]:-moz-range-track {
         width: 100%;
         height: 5.8px;
         cursor: pointer;
@@ -482,7 +482,7 @@ input[type=range] {
         border: 0px solid #010101;
     }
 
-    input[type=range]::-moz-range-thumb {
+    input[type=range]:-moz-range-thumb {
         box-shadow: 0.9px 0.9px 1px rgba(0, 0, 49, 0.43), 0px 0px 0.9px rgba(0, 0, 75, 0.43);
         border: 0px solid #00001e;
         height: 20px;
