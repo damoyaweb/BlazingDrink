@@ -18,6 +18,25 @@
                     @(Drink.Size) cc ($@(Drink.GetFormattedTotalPrice()))
                 </span>
             </div>
+            <div>
+                <label>Complementos Adicionales:</label>
+                @if (Toppings == null)
+			{
+            <select class="custom-select">
+                <option>(Cargando....)</option>
+            </select>
+			}
+            else if(Drink.Toppings.Count >= 6)
+			{
+                <div>(Maximo Alcanzado)</div>
+			}
+			else
+			{
+            <select>
+                <option value="value">text</option>
+            </select>
+			}
+            </div>
         </form>
         <div class="dialog-buttons">
             <button class="btn btn-secondary mr-auto">Cancelar</button>
