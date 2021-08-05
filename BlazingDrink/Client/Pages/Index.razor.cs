@@ -20,6 +20,8 @@ namespace BlazingDrink.Client.Pages
 		List<DrinkSpecial> Specials;
         Drink ConfiguringDronk;
         bool ShowingConfigureDialog;
+		Order Order = new();
+
 		#endregion
 
 		#region Overrides
@@ -43,6 +45,19 @@ namespace BlazingDrink.Client.Pages
 			ShowingConfigureDialog = true;
 		}
 
+		#endregion
+		#region Manejadores de Eventos
+		void CancelConfigureDrinkDialog()
+		{
+			ConfiguringDronk = null;
+			ShowingConfigureDialog = false;
+		}
+		void ConfirmConfigureDrinkDialog()
+		{
+			Order.Drinks.Add(ConfiguringDronk);
+			ConfiguringDronk = null;
+			ShowingConfigureDialog = false;
+		}
 		#endregion
 
 

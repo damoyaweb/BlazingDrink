@@ -22,7 +22,7 @@
                 <label>Complementos Adicionales:</label>
                 @if (Toppings == null)
 			{
-            <select class="custom-select">
+            <select class="custom-select" disabled>
                 <option>(Cargando....)</option>
             </select>
 			}
@@ -32,21 +32,43 @@
 			}
 			else
 			{
-            <select>
-                <option value="value">text</option>
+            <select class="custom-select" @onchange="@ToppingSelected">
+                <option value="-1" disabled selected>(Selecciona)</option>
+                @for (var i = 0; i < Toppings.Count(); i++)
+                {
+                    <option value="@i">
+                        @Toppings.ElementAt(i).Nombre - ($@(Toppings.ElementAt(i).GetFormattedPrice()))
+                    </option>
+
+                }
             </select>
 			}
             </div>
+            <div class="toppings">
+                @foreach (var topping in Drink.Toppings)
+                {
+                    <div class="topping">
+                        @topping.Topping.Nombre
+                        <span class="topping-price">
+                            @topping.Topping.GetFormattedPrice()
+                        </span>
+                        <button type="button" class="delete-topping"
+                            @onclick="@(() => RemoveTopping(topping.Topping))">
+                            X
+                        </button>
+                    </div>
+                }
+            </div>
         </form>
         <div class="dialog-buttons">
-            <button class="btn btn-secondary mr-auto">Cancelar</button>
+            <button class="btn btn-secondary mr-auto" @onclick="onCancel">Cancelar</button>
             <span class="mr-center">
                 Precio:
                 <span class="price">
                     @(Drink.GetFormattedTotalPrice())
                 </span>
             </span>
-            <button class="btn btn-success ml-auto">Ordenar</button>
+            <button class="btn btn-success ml-auto" @onclick="onConfirm">Ordenar</button>
         </div>
     </div>
 </div>

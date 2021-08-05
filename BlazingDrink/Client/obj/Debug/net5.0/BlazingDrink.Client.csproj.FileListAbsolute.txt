@@ -625,6 +625,20 @@ C:\Diego Moya\Proyectos\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\Blazin
 C:\Diego Moya\Proyectos\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.dll
 C:\Diego Moya\Proyectos\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\ref\BlazingDrink.Client.dll
 C:\Diego Moya\Proyectos\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.pdb
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.csproj.AssemblyReference.cache
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.AssemblyInfoInputs.cache
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.AssemblyInfo.cs
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.csproj.CoreCompileInputs.cache
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.MvcApplicationPartsAssemblyInfo.cache
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.RazorComponent.input.cache
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\RazorDeclaration\Shared\ConfiguredDrinkItem.razor.g.cs
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\RazorDeclaration\Shared\ConfigureDrinkDialog.razor.g.cs
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.RazorComponent.output.cache
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\bin\Debug\net5.0\wwwroot\_framework\blazor.boot.json
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\bin\Debug\net5.0\BlazingDrink.Client.StaticWebAssets.xml
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\bin\Debug\net5.0\BlazingDrink.Client.dll
@@ -1026,25 +1040,13 @@ C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\bin\Debug\net5.0\ww
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\bin\Debug\net5.0\wwwroot\_framework\dotnet.5.0.8.js
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\bin\Debug\net5.0\wwwroot\_framework\BlazingDrink.Shared.dll
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\bin\Debug\net5.0\wwwroot\_framework\BlazingDrink.Shared.pdb
-C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.csproj.AssemblyReference.cache
-C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.GeneratedMSBuildEditorConfig.editorconfig
-C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.AssemblyInfoInputs.cache
-C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.AssemblyInfo.cs
-C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.csproj.CoreCompileInputs.cache
-C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.MvcApplicationPartsAssemblyInfo.cache
-C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.RazorComponent.input.cache
-C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
-C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
-C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\RazorDeclaration\Shared\ConfigureDrinkDialog.razor.g.cs
-C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
-C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
-C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.RazorComponent.output.cache
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\RazorDeclaration\BlazingDrink.Client.dll
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.TagHelpers.input.cache
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.TagHelpers.output.cache
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\BlazingDrink.Client.RazorCoreGenerate.cache
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\Razor\App.razor.g.cs
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\Razor\Shared\ConfiguredDrinkItem.razor.g.cs
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\Razor\Shared\ConfigureDrinkDialog.razor.g.cs
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Client\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs

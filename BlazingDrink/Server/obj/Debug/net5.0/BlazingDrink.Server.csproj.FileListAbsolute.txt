@@ -89,6 +89,14 @@ C:\Diego Moya\Proyectos\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\Blazin
 C:\Diego Moya\Proyectos\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\ref\BlazingDrink.Server.dll
 C:\Diego Moya\Proyectos\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\BlazingDrink.Server.pdb
 C:\Diego Moya\Proyectos\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\BlazingDrink.Server.genruntimeconfig.cache
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\BlazingDrink.Server.csproj.AssemblyReference.cache
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\BlazingDrink.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\BlazingDrink.Server.AssemblyInfoInputs.cache
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\BlazingDrink.Server.AssemblyInfo.cs
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\BlazingDrink.Server.csproj.CoreCompileInputs.cache
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\BlazingDrink.Server.MvcApplicationPartsAssemblyInfo.cache
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\BlazingDrink.Server.RazorAssemblyInfo.cache
+C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\BlazingDrink.Server.RazorAssemblyInfo.cs
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\bin\Debug\net5.0\BlazingDrink.Client.StaticWebAssets.xml
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\bin\Debug\net5.0\appsettings.Development.json
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\bin\Debug\net5.0\appsettings.json
@@ -157,14 +165,6 @@ C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\bin\Debug\net5.0\Bl
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\bin\Debug\net5.0\BlazingDrink.Shared.dll
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\bin\Debug\net5.0\BlazingDrink.Client.pdb
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\bin\Debug\net5.0\BlazingDrink.Shared.pdb
-C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\BlazingDrink.Server.csproj.AssemblyReference.cache
-C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\BlazingDrink.Server.GeneratedMSBuildEditorConfig.editorconfig
-C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\BlazingDrink.Server.AssemblyInfoInputs.cache
-C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\BlazingDrink.Server.AssemblyInfo.cs
-C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\BlazingDrink.Server.csproj.CoreCompileInputs.cache
-C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\BlazingDrink.Server.MvcApplicationPartsAssemblyInfo.cache
-C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\BlazingDrink.Server.RazorAssemblyInfo.cache
-C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\BlazingDrink.Server.RazorAssemblyInfo.cs
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\staticwebassets\BlazingDrink.Server.StaticWebAssets.Manifest.cache
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\staticwebassets\BlazingDrink.Server.StaticWebAssets.xml
 C:\DISCO_Datos\BlazingDrink\BlazingDrink\BlazingDrink\Server\obj\Debug\net5.0\scopedcss\bundle\BlazingDrink.Server.styles.css

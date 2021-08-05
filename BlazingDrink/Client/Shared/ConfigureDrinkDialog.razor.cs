@@ -18,6 +18,11 @@ namespace BlazingDrink.Client.Shared
 		#region Parametros
 		[Parameter]
 		public Drink Drink { get; set; }
+		[Parameter]
+		public EventCallback onCancel { get; set; }
+		[Parameter]
+		public EventCallback onConfirm { get; set; }
+
 		#endregion
 		#region Variables
 		IEnumerable<Topping> Toppings;
@@ -26,6 +31,26 @@ namespace BlazingDrink.Client.Shared
 		protected async override Task OnInitializedAsync()
 		{
 			Toppings = await HttpClient.GetFromJsonAsync<IEnumerable<Topping>>("toppings");
+		}
+		#endregion
+		#region Metodos Auxiliares
+		void AddTopping(Topping topping)
+		{
+			if (Drink.Toppings.Find(dt=>dt.Topping == topping) == null)
+			{
+				Drink.Toppings.Add(new DrinkTopping { Topping = topping });
+			}
+		}
+		#endregion
+		#region Manejadores de Enventos
+		void ToppingSelected(ChangeEventArgs e)
+		{
+			int index = Convert.ToInt32(e.Value);
+			AddTopping(Toppings.ElementAt(index));
+		}
+		void RemoveTopping(Topping topping)
+		{
+			Drink.Toppings.RemoveAll(dt => dt.Topping == topping);
 		}
 		#endregion
 	}

@@ -18,12 +18,13 @@
                     </div>
                 </li>
             }
-
         }
     </ul>
 </div>
 @if (ShowingConfigureDialog)
 {
-    <ConfigureDrinkDialog Drink="ConfiguringDronk" />
+    <ConfigureDrinkDialog Drink="ConfiguringDronk" 
+                          onCancel="CancelConfigureDrinkDialog"
+                          onConfirm="ConfirmConfigureDrinkDialog"/>
 }
 

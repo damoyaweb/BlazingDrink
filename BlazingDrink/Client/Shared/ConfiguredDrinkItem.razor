@@ -1,0 +1,13 @@
+﻿<div class="cart-item">
+    <a @onclick="@OnRemoved" class="delete-item">X</a>
+    <div class="title">(@Drink.Size) cm @Drink.Special.Nombre</div>
+    <ul>
+        @foreach (var Topping in Drink.Toppings)
+        {
+            <li>+@Topping.Topping.Nombre</li>
+        }
+    </ul>
+    <div class="item-price">
+        @Drink.GetFormattedTotalPrice()
+    </div>
+</div>

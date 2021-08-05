@@ -11,7 +11,8 @@ namespace BlazingDrink.Server.Models
 	{
 		public DbSet<DrinkSpecial> Specials { get; set; }
 		public DbSet<Topping> Toppings { get; set; }
-		public DbSet<Drink> drinks { get; set; }
+		public DbSet<Drink> Drinks { get; set; }
+		public DbSet<Order> Orders { get; set; }
 
 
 		public DrinkStoreContext(DbContextOptions options) : base(options) { }
@@ -26,6 +27,9 @@ namespace BlazingDrink.Server.Models
 
 			modelBuilder.Entity<DrinkTopping>()
 				.HasOne(dt => dt.Topping).WithMany();
+
+			modelBuilder.Entity<Order>()
+				.OwnsOne(o => o.DeliveryLocation);
 		}
 	}
 }
