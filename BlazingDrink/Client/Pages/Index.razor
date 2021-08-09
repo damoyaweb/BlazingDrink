@@ -21,6 +21,33 @@
         }
     </ul>
 </div>
+<div class="sidebar">
+    @if (Order.Drinks.Any())
+    {
+        <div class="order-contents">
+            <h2>Tu Orden</h2>
+
+            @foreach (var ConfiguredDrink in Order.Drinks)
+            {
+                <ConfiguredDrinkItem Drink="ConfiguredDrink" 
+                                     OnRemoved="@(() => RemoveConfiguredDrink(ConfiguredDrink))" />
+            }
+        </div>
+    }
+    else
+    {
+        <div class="empty-cart">Elija un Drink<br>Para Empezar</div>
+    }
+
+<div class="order-total @(Order.Drinks.Any() ? "" : "hidden")">
+    Total:
+    <span class="total-price">@Order.GetFormattedTotalPrice()</span>
+    <button class="btn btn-warning"
+            @onclick="@PlaceOrder">
+        Ordenar >
+    </button>
+</div>
+</div>
 @if (ShowingConfigureDialog)
 {
     <ConfigureDrinkDialog Drink="ConfiguringDronk" 

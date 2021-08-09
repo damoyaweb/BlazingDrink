@@ -58,6 +58,15 @@ namespace BlazingDrink.Client.Pages
 			ConfiguringDronk = null;
 			ShowingConfigureDialog = false;
 		}
+		void RemoveConfiguredDrink(Drink drink)
+		{
+			Order.Drinks.Remove(drink);
+		}
+		async Task PlaceOrder()
+		{
+			await HttpClient.PostAsJsonAsync("orders", Order);
+			Order = new Order();
+		}
 		#endregion
 
 
